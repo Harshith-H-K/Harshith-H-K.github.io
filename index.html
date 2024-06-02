@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav1">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+
+        <p>
+            <div>
+                <h1>Harshith Honnanaganahalli Kadaiah</h1>
+                <p>Passionate towards real time innovative projects as they provide an integrated platform to learn research and perform. Immensely enthusiastic to study and research under the domains of Machine Learning, Cloud Computing, Algorithm and Computing
+                    Models, Data Warehouse and Networking. iOS Development Engineer with close to 2 years of experience, endeavouring to pursue MS in Computer Science to top on the advanced skills by enhancing the exploring the program and implementing
+                    the learnings by providing solutions to real world industry problems.
+                </p>
+            </div>
+        </p>
+        <img src="https://m.media-amazon.com/images/M/MV5BODI0MTYzNTIxNl5BMl5BanBnXkFtZTcwNjg2Nzc0NA@@._V1_.jpg" alt="Profile Photo">
+    </section>
+
+    <section id="resume">
+        <h2>RESUME</h2>
+        <div id="resume-pdf">
+            <iframe src="Resume.pdf#toolbar=0" width="40%" height="900px" frameborder="1" style="border:none" scrolling="no"></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-aws-3215369-2673787.png" alt="Project 1" style="width: 100px; height: auto;">
+                <h3>Project 1</h3>
+                <p>Developed a Web Application with micro services using AWS Cloud Services. Implementation of REST APIs using Flask, Container Orchestration with custom configurations and AWS load Balancer.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/003/076/902/original/human-brain-from-nodes-and-connections-neural-network-vector.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Given an article as an input, the algorithm runs the RNN (Recurrent Neural Network) Model established in the program, using which the LSTM (long short-term memory) Network reads.</p>
+            </div>
+            <!-- Add more portfolio items here -->
+            <div class="portfolio-item">
+                <img src="https://external-preview.redd.it/Z1wWUn85EUitTtJYpt0-aUrjIBpg2C4WO82631Z1_BM.jpg?auto=webp&s=31019481da0c1454962f25c78f5295b5d8b40a23" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Developed a first-person shooter horror game using Unity 3D, programming done with C# and Blender for the design of unique 3D objects also used A star pathfinding algorithm.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="data:image/png;base64,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"
+                    alt="Project 4">
+                <h3>Project 4</h3>
+                <p>Camera Annotations application with Live Gestures, application that supports live on-screen gestures with widgets, developed using screen recording Media projection API’s.</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Harshith Honnanaganahalli Kadaiah. All rights reserved.</p>
+        <div id="social-media">
+            <h3>Connect with Me</h3>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Harshith-H-K"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"></a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/harshith98hk"><img src="https://png.pngitem.com/pimgs/s/49-493540_linkedin-icon-png-black-linkedin-black-logo-png.png" alt="LinkedIn"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/mendax98gowda"><img src="https://cdn.icon-icons.com/icons2/1674/PNG/512/twitter_111147.png" alt="Twitter"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

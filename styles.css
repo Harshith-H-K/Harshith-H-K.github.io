@@ -1,0 +1,235 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Candara;
+    background-color: #000000;
+}
+
+#aboutme {
+    text-align: justify;
+}
+
+#nav1 {
+    overflow: hidden;
+    background-color: #e8f0fe00;
+    position: fixed;
+    top: 10px;
+}
+
+header {
+    background-color: #e8f0fe;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+/* Updated CSS styles for hover effect */
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #02e1ff;
+    /* Neon green color */
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: whitesmoke;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/* Styling the section backgrounds */
+
+#home {
+    background-color: #e8f0fe;
+}
+
+#resume {
+    background-color: #ffffff;
+}
+
+#contact {
+    background-color: #e8f0fe
+}
+
+#portfolio {
+    background-color: #ffffff;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+
+/* Existing CSS styles */
+
+section#home {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+section#h1 {
+    text-align: center;
+}
+
+section#home img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+section#home p {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+    max-width: 800px;
+    flex: 1;
+}
+
+
+/* Additional CSS styles */
+
+@media only screen and (max-width: 768px) {
+    section#home {
+        flex-direction: column;
+        text-align: center;
+    }
+    section#home img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+#message {
+    width: 400px;
+    /* Adjust the width as desired */
+}
+
+
+/* Styling the social media icons */
+
+#social-media {
+    margin-top: 20px;
+}
+
+#social-media h3 {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#social-media a {
+    display: inline-block;
+}
+
+#social-media img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
